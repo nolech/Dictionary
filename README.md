@@ -15,17 +15,17 @@ This is a simple key-value dictionary for Arduino. It uses LinkedList (It has it
   Include the library like this:
 
 ```cpp
-  #include <Dictionary.h>
+  #include <SimpleDictionary.h>
 ```
 Create an object with String keys and String values:
 
  ```cpp
  //Object with String keys and String values
- Dictionary<String, String> MyDict = Dictionary<String, String>();
+ SimpleDictionary<String, String> MyDict = SimpleDictionary<String, String>();
  ```
  Or just
  ```cpp
- Dictionary<String, String> MyDict;
+ SimpleDictionary<String, String> MyDict;
  ```
  Set a value:
  ```cpp
