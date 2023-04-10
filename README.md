@@ -1,4 +1,7 @@
-# Arduino Dictionary
+# Arduino SimpleDictionary
+
+A fork of https://github.com/KeeganMartin/Dictionary but changed the name (to not conflict with another arduino library) and to have a return variable for the .get
+
 
 This is a simple key-value dictionary for Arduino. It uses LinkedList (It has its own version within it to ensure compatibility). This library has had very little testing, so use at your own risk.
 
