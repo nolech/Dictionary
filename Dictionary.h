@@ -1,7 +1,7 @@
 #include "dependencies/LinkedList/LinkedList.h"
 
 template <class T, class U>
-class Dictionary
+class SimpleDictionary
 {
 private:
     LinkedList<T> KeyList = LinkedList<T>();
@@ -30,6 +30,7 @@ public:
                 return ValList.get(i);
             }
         }
+        return "null"
     }
 
     T getKey(U val)
